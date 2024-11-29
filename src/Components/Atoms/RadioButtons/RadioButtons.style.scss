@@ -1,0 +1,31 @@
+.custom-radio {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  appearance: none;
+  border: 1px solid var(--ibl1);
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.custom-radio:checked::before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--ibl1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-radio:checked {
+  border-color: var(--ibl1);
+}
+
+.custom-radio:hover {
+  border-color: var(--ibl1);
+}

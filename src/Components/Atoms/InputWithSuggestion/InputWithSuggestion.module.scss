@@ -1,0 +1,51 @@
+.isOpenContainer {
+  border-radius: 12px;
+  box-shadow: 0px 0px 2px 0px #0b51ee99;
+  margin-top: 4px;
+  overflow: hidden;
+  background: #ffffff;
+  overflow-y: scroll;
+  max-height: 252px;
+}
+
+.optionContainer {
+  padding: 9px 16px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  height: 40px;
+  cursor: pointer;
+  word-break: break-word;
+  height: fit-content;
+  &:hover {
+    background: var(--ibl12);
+  }
+}
+
+.noOptionContainer {
+  padding: 9px 16px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchContainer {
+  padding: 8px 12px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--ibl1);
+  border-radius: 12px;
+  height: 32px;
+  color: var(--ibl1);
+}
+.hrLine {
+  color: #a4a4a4;
+  border-radius: 25%;
+}

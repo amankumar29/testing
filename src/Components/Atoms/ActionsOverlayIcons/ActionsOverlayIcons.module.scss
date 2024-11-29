@@ -1,0 +1,21 @@
+.overlayIcons:hover {
+  cursor: pointer;
+}
+
+.moveToContainer {
+  box-shadow: 0px 0px 4px 0px #234af5a3;
+}
+
+.moveToIcon {
+  background: #052c85;
+  box-shadow: 0px 0px 1px 0px #0000001a;
+  transition: background-color 300ms ease-out;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.disableIcon {
+  background: linear-gradient(90.68deg, #9bacd2 0%, #9bacd2 98.26%);
+  transition: background-color 300ms ease-out;
+  border-radius: 4px;
+}

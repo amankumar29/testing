@@ -1,0 +1,44 @@
+.stepsContainer {
+  box-shadow: 0px 0px 4px 0px #0b51ee99;
+  border-radius: 8px;
+  height: 144px;
+}
+
+.browserOption {
+  position: absolute;
+  width: 133px;
+  top: 0px;
+  right: 100%;
+  margin-right: 4px;
+  background-color: var(--iwhite);
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px 0px rgba(11, 81, 238, 0.6);
+  z-index: 10;
+}
+
+.scroll {
+  overflow-y: auto;
+  // min-height: 760px;
+  // max-height: 250px;
+  height: calc(100vh - 225px);
+  @media (max-width: 767px){
+    height: calc(100vh - 280px);
+  }
+  &::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #d8e2f0;
+    border-radius: 10px;
+    margin: 2px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: var(--ibl1);
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,28 @@
+.progress-bar {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.progress-bar__investigation {
+  background-color: #d5cdc7; /* grey */
+}
+
+.progress-bar__automation {
+  background-color: #ffc33b; /* yellow */
+}
+
+.progress-bar__environment {
+  background-color: #76c6d8; /* sky blue */
+}
+
+.progress-bar__productBug {
+  background-color: #e78d47; /* orange */
+}
+
+.progress-bar__noDefect {
+  background-color: #a8d5f4; /* light blue */
+}

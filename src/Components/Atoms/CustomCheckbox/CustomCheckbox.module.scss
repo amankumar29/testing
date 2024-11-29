@@ -1,0 +1,39 @@
+.inputContainer {
+  display: none; /* Hide the default checkbox */
+}
+
+.customCheckbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: white; /* Default background color */
+  border: 2px solid var(--ibl1); /* Default border color */
+  display: inline-block;
+  position: relative;
+  &:hover {
+    border: 2px solid var(--ibl3);
+    transition: all 0.3s ease-in;
+  }
+}
+
+.inputContainer:checked + .customCheckbox {
+  background-color: var(--ibl3); /* Change background color when checked */
+  border-color: var(--ibl3); /* Change border color when checked */
+}
+
+.customCheckbox::before {
+  content: "";
+  width: 7px;
+  height: 12px;
+  border: solid white; /* Set tick color to white */
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  transform: rotate(45deg);
+  opacity: 0;
+}
+
+.inputContainer:checked + .customCheckbox::before {
+  opacity: 1;
+}

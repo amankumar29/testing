@@ -1,0 +1,18 @@
+.run-Test-Suite {
+  .failed-progress {
+    .CircularProgressbar .CircularProgressbar-path {
+      stroke: var(--ird3) !important;
+    }
+  }
+  .sucess-process {
+    .CircularProgressbar .CircularProgressbar-path {
+      stroke: var(--ign6) !important;
+    }
+  }
+  .CircularProgressbar .CircularProgressbar-trail {
+    stroke: var(--ibl25);
+  }
+  .progressBarPoPUp {
+    box-shadow: 0px 0px 4px 0px rgba(18, 31, 87, 0.62);
+  }
+}

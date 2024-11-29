@@ -1,0 +1,23 @@
+.scroll {
+    min-height: auto;
+    height: 360px;
+  
+    &::-webkit-scrollbar {
+      width: 5px;
+      border-radius: 5px;
+    }
+  
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #d8e2f0;
+      border-radius: 10px;
+      margin: 2px;
+    }
+  
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: var(--ibl1);
+      border-radius: 10px;
+    }
+  }
+ 

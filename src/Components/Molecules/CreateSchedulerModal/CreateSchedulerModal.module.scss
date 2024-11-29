@@ -1,0 +1,22 @@
+.drawerScroll {
+    overflow-y: auto;
+  
+    &::-webkit-scrollbar {
+      width: 3px;
+      border-radius: 10px;
+    }
+  
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #d8e2f0;
+      border-radius: 10px;
+      margin: 2px;
+    }
+  
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: var(--ibl1);
+      border-radius: 10px;
+    }
+  }
+ 

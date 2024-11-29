@@ -1,0 +1,23 @@
+.scroll {
+    overflow-y: auto;
+    min-height: 470px;
+    max-height: 470px;
+ 
+    &::-webkit-scrollbar {
+      width: 5px;
+      border-radius: 5px;
+    }
+ 
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #d8e2f0;
+      border-radius: 10px;
+      margin: 2px;
+    }
+ 
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: var(--ibl1);
+      border-radius: 10px;
+    }
+  }

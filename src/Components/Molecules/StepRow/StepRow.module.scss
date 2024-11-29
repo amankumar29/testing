@@ -1,0 +1,19 @@
+.stepsContainer {
+  box-shadow: 0px 0px 4px 0px #0b51ee99;
+  border-radius: 8px;
+  // max-height: 144px;
+}
+
+.moveToContainer {
+  box-shadow: 0px 0px 4px 0px #234af5a3;
+}
+
+.moveToIcon {
+  background: linear-gradient(90.68deg, #9bacd2 0%, #9bacd2 98.26%);
+  border-radius: 4px;
+  transition: background-color 300ms ease-out;
+  &:hover {
+    background: #052c85;
+    box-shadow: 0px 0px 1px 0px #0000001a;
+  }
+}

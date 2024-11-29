@@ -1,0 +1,17 @@
+.inputContainer {
+  &:focus-within {
+    border: 1px solid var(--ibl1);
+    color: var(--igy1);
+  }
+}
+
+.shadow {
+  box-shadow: 0 2px 2px 0 var(--igy2);
+}
+
+.form_input {
+  &::placeholder {
+    font-size: 14px !important;
+    color: var(--igy6);
+  }
+}

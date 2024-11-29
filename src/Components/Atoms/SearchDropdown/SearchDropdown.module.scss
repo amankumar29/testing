@@ -1,0 +1,112 @@
+.container {
+  min-width: 204px;
+  // &:hover .label {
+  //   color: var(--ibl1);
+  //   transition: all 0.3s ease-in;
+  // }
+  // &:hover .inputText,
+  // &:hover .subContainer,
+  // &:hover .iconContainer {
+  //   border-color: var(--ibl1);
+  //   transition: all 0.3s ease-in;
+  //   cursor: pointer;
+  // }
+  @media (max-width: 1280px){
+    min-width: initial;
+    .subContainer{
+      width: 100%;
+    }
+  }
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  width: fit-content;
+}
+
+.subContainer {
+  margin-top: 8px;
+  height: 46px;
+  border-radius: 8px;
+  padding: 12px 9px 12px 16px;
+  border: 1px solid #a4a4a4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputText {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #02152699;
+}
+
+.iconContainer {
+  color: #02152699;
+  width: 44px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.isOpenIcon {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in;
+}
+
+.isOpenContainer {
+  border-radius: 12px;
+  box-shadow: 0px 0px 2px 0px #0b51ee99;
+  margin-top: 4px;
+  overflow: hidden;
+  background: #ffffff;
+}
+.searchContainer {
+  padding: 8px 12px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--ibl1);
+  border-radius: 12px;
+  height: 32px;
+  color: var(--ibl1);
+  width: 100%;
+}
+.hrLine {
+  color: #a4a4a4;
+  border-radius: 25%;
+}
+.listContainer {
+  overflow-y: scroll;
+  max-height: 252px;
+}
+.noOptionContainer {
+  padding: 9px 16px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.optionContainer {
+  padding: 9px 16px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  height: 40px;
+  cursor: pointer;
+  word-break: break-word;
+  height: fit-content;
+
+  &:hover {
+    background: var(--ibl12);
+  }
+}
